@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+    <title>SESISENAI</title>
+</head>
+
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="index.html">
+                <img class="img-logo" src="img/sloganloja.png">
+        </div>
+
+        <ul>
+            <li> <a href="index.html"> Home </a> </li>
+            <li> <a href="index.html"> Sobre </a> </li>
+            <li> <a href="index.html"> Contato </a> </li>
+            <li> <a href="index.html"> Carrinho </a> </li>
+            <li> <a href="index.html"> Serviços </a> </li>
+        </ul>
+
+    </nav>
+    <section class="banner">
+        <div class="texto">
+            <br>
+            <h1 class="titulo">Confira seus produtos e</h1>
+            <h2 class="sub_titulo"> finalize sua compra!</h2>
+            <img class="carrinho" src="img/carrinho.png">
+            <table border="1">
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade<button onclick="incrementClick()">+</button></th>
+                    <th>Excluir item</th>
+                </tr>
+                <tr>
+                    <td><a href="img/cappuccino.jpg">Cappuccino </a></td>
+                    <td><p id="counter-label">0</p></td>
+                    <td><button onclick="resetCounter()">Excluir</button></td>
+                </tr>
+            </table>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <p>INSTITUCIONAL</p>
+        <p>DÚVIDAS</p>
+        <p>AJUDA</p>
+        <p>PAGAMENTO</p>
+        <p>NEWSLETTER</p>
+        <p>Email: coffeeshop@gmail.com</p>
+
+    </footer>
+</body>
+
+</html>
