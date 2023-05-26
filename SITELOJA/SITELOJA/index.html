@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>SESISENAI</title>
 </head>
 
@@ -36,13 +36,15 @@
             <table border="1">
                 <tr>
                     <th>Produto</th>
-                    <th>Quantidade<button onclick="incrementClick()">+</button></th>
+                    <th><button onclick="ContarCliques()">+</button>Quantidade<button onclick="excluir()">-</button></th>
+                    <th>Preço</th>
                     <th>Excluir item</th>
                 </tr>
                 <tr>
                     <td><a href="img/cappuccino.jpg">Cappuccino </a></td>
-                    <td><p id="counter-label">0</p></td>
-                    <td><button onclick="resetCounter()">Excluir</button></td>
+                    <td><p id="registro-cliques">0</p></td>
+                    <td><p id="preco">R$ 0,00</p></td>
+                    <td><button onclick="resetCounter()"><img class="lixeira-imagem" src="img/lixeira.png" alt=""></button></td>
                 </tr>
             </table>
 
